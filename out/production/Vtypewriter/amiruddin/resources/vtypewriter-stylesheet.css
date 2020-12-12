@@ -1,0 +1,28 @@
+.keyboard-button{
+    -fx-font-size: 18;
+    -fx-font-weight: bold;
+    -fx-background-color: transparent;
+    -fx-border-color: grey;
+}
+.keyboard-button:pressed{
+    -fx-background-color: linear-gradient(dimgrey,black);
+}
+.keyboard-button:selected{
+    -fx-background-color: linear-gradient(dimgrey,black);
+}
+
+.keyboard{
+    -fx-border-color: #494B4E;
+    -fx-border-style: solid solid solid solid;
+    -fx-border-width: 12;
+}
+
+.text-area{
+    -fx-font-size: 25;
+    -fx-font-family: Calibri;
+    -fx-text-fill: white;
+}
+
+.text-area .content{
+    -fx-background-color: black;
+}
